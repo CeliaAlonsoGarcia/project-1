@@ -12,10 +12,10 @@ li {
 }
 
 body {
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
-  padding: 20px;
-  background-image: url(/Users/celia/Documents/my-webpage/CeliaAlonsoGarcia.github.io/project-1/images/background11.jpg);
+  padding: 5px;
+  background-image: url(/images/background11.jpg);
 }
 
 main {
@@ -27,7 +27,7 @@ main {
 }
 
 h1 {
-  padding: 50;
+ 
   color: #00539f;
   font-size: 60px;
   text-align: center;
@@ -36,32 +36,34 @@ h1 {
 .photo img {
   display: block;
   margin: 0 auto;
-  width: 600px;
-  height: 500px;
-  padding: 1cm;
+  width: 80%;
+  height: 80%;
+  padding: 10px;
   object-fit: cover;
 }
 
 .gallery {
+
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 100px;
+  width: 100%;
+  max-width: 1000px;
 }
 .card {
-  width: auto;
-  height: auto;
+  flex-basis: 50%;
   margin: 4px;
 }
 
 .card img {
   display: block;
   margin: 0 auto;
-  width: 300px;
-  height: 300px;
-  padding-bottom: 1cm;
+  width: 50%;
+  height: 50%;
   padding-top: 0;
-  object-fit: cover;
+
 }
 
 .card h3 {
