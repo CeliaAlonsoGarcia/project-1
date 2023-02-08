@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
   font-family: sans-serif;
-  justify-content: center;
+  /* justify-content: center; */
 }
 p,
 li {
@@ -10,18 +10,17 @@ li {
   background-color: white;
 }
 body {
-  width: 50%;
-  margin: auto;
-  padding: 0.375rem;
+  width: 70%;
+  margin: 0 auto; 
   background-image: url(/images/background11.jpg);
+  
 }
 main {
-  width: 100%;
   background-color: white;
   margin-left: auto;
-  margin-right: 2rem;
+  margin-right: auto;
   padding: 4.05rem 4.05rem 4.05rem 4.05rem;
-  justify-content: center;
+
 }
 
 h1 {
@@ -37,8 +36,8 @@ h2 {
 .photo img {
   display: block;
   margin: 0 auto;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   padding: 10px;
   object-fit: cover;
 
@@ -47,11 +46,10 @@ h2 {
 
   flex-wrap: wrap;
   display: flex; 
-    flex-direction: row;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   height: auto;
-  width: 100%;
+  /* width: 100%; */
   max-width: fit-content;
 }
 .card {
@@ -62,7 +60,6 @@ h2 {
   justify-content: center;
 }
 
- 
 
 .card img {
   display: block;
@@ -71,7 +68,7 @@ h2 {
   height: 100%;
   padding-top: 0;
   object-fit: cover;
-  /* justify-content: center; */
+  justify-content: center;
 
 }
 
@@ -90,9 +87,12 @@ header {
   width: auto;
   margin: 0;
 }
-footer {
+footer{
   margin-top: 1cm;
   margin-bottom: 5cm;
+  background-color: white;
+  padding: 50px;
+  /*  */
 }
 #current-time {
   font-size: 20px;

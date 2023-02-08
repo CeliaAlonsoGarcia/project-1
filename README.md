@@ -26,3 +26,6 @@ After i read this, I went back to to the other JS resources and read them all. I
 
 ### Debugging
 
+I had put a different width to the body and main inside thebody so the page did not show properly.
+
+I put footer withing a paragraph so my styiling was not  working 
