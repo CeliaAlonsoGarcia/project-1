@@ -4,7 +4,7 @@ html {
 }
 p,
 li {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 2;
   letter-spacing: 1px;
   background-color: white;
@@ -13,23 +13,26 @@ body {
   width: 50%;
   margin: 0 auto;
   padding: 5px;
-  background-image: url("/images/background11.jpg");
+  background-image: url(/images/background11.jpg);
 }
 main {
-  width: auto;
+  width: 80%;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  padding: 100px;
+  padding: 4.05rem;
 }
+
 h1 {
  
   color: #00539f;
-  font-size: 60px;
+  font-size: 2.2rem;
   text-align: center;
 }
-@media only screen and (min-width: 600px)
- {
+h2 {
+  font-size: 1.5rem;
+}
+
 .photo img {
   display: block;
   margin: 0 auto;
@@ -37,13 +40,13 @@ h1 {
   height: 80%;
   padding: 10px;
   object-fit: cover;
-}
+
 }
 .gallery {
 
   flex-wrap: wrap;
   display: flex; 
-  flex-direction: column;
+    flex-direction: row;
   justify-content: center;
   align-items: center;
   height: auto;
@@ -51,29 +54,35 @@ h1 {
   max-width: fit-content;
 }
 .card {
-  width: 100%;
-  height: 100%;
-  margin: 4px;
+  width: 40%;
+  height: 60%;
+  margin: 0.3rem;
+  padding: 0.3rem;
+  justify-content: center;
 }
-@media only screen and (min-width: 601px)
- {
+
+ 
+
 .card img {
   display: block;
   margin: 0 auto;
-  width: 50%;
-  height: 50%;
-  padding-bottom: 1cm;
+  width: 100%;
+  height: 100%;
   padding-top: 0;
+  object-fit: cover;
+  /* justify-content: center; */
 
 }
-}
+
 .card h3 {
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 1rem;
   text-align: center;
-  max-width: 400px;
-  margin-top: 20px;
+  max-width: 25rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
   color: rgba(93, 15, 15, 0.831);
+
 }
 header {
   background-color: white;
