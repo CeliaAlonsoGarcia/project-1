@@ -11,20 +11,17 @@ li {
 }
 body {
   width: 70%;
-  margin: 0 auto; 
+  margin: 0 auto;
   background-image: url(/images/background11.jpg);
-  
 }
 main {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
   padding: 4.05rem 4.05rem 4.05rem 4.05rem;
-
 }
 
 h1 {
- 
   color: #00539f;
   font-size: 2.2rem;
   text-align: center;
@@ -40,16 +37,13 @@ h2 {
   height: 70%;
   padding: 10px;
   object-fit: cover;
-
 }
 .gallery {
-
   flex-wrap: wrap;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   align-items: center;
   height: auto;
-  /* width: 100%; */
   max-width: fit-content;
 }
 .card {
@@ -60,7 +54,6 @@ h2 {
   justify-content: center;
 }
 
-
 .card img {
   display: block;
   margin: 0 auto;
@@ -69,7 +62,6 @@ h2 {
   padding-top: 0;
   object-fit: cover;
   justify-content: center;
-
 }
 
 .card h3 {
@@ -80,19 +72,19 @@ h2 {
   margin-top: 1rem;
   margin-right: 0.5rem;
   color: rgba(93, 15, 15, 0.831);
-
 }
+
 header {
   background-color: white;
   width: auto;
   margin: 0;
 }
-footer{
+
+footer {
   margin-top: 1cm;
   margin-bottom: 5cm;
   background-color: white;
   padding: 50px;
-  /*  */
 }
 #current-time {
   font-size: 20px;
