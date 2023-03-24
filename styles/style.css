@@ -11,7 +11,7 @@ li {
 body {
   width: 70%;
   margin: 0 auto;
-  background-image: url("background.jpg");
+  background-image: url("../background.jpg");
 }
 main {
   background-color: white;
