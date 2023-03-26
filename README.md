@@ -1,13 +1,21 @@
-#Planning
+# Planning
+
 When I started planning for the project, I knew nothing about HTML, CSS, or JS. Therefore, I focused my planning on the topic, content, and structure of the website.
 
-##Topic:
+## Topic:
+
 I knew I wanted my hobby page to be about either foraging or mycology. I decided to go for a mixture of both and wrote about Mushroom Foraging.
-##Content:
+
+## Content:
+
 I knew I wanted to include an intro about how I started foraging, tips about how to learn, some of my own pictures, and some descriptions of mushrooms.
-##Structure:
+
+## Structure:
+
 I made a sketch with the information I had decided to include and how and where I wanted to include it. I decided I wanted a background with different mushrooms.
-#Building
+
+# Building
+
 I couldn't start building it straight away as I didn't have the knowledge of how to do it. I went to the Resources section and started with the first resource suggested: [Setting up a Webpage](https://oliverjam.es/articles/complete-guide-to-making-web-pages). Then I read the HTML and most of the CSS sections of [MDN: Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). I found this last one especially helpful as it encouraged me to create a page. Instead of following its exact instructions to create a _Mozilla_ page, I started using what I was learning to create my Mushrooms page.
 
 I started learning basics like what was the `<head>` and `<body>` and how to add text with `<p>`. Then I learned about styling with CSS and played around changing text colors, changing the background, and adding pictures. In general, I did a lot of trial and error for practice, trying things that I kept and others that I knew I didn't want to use in my page like shadow to titles. I kept the bits I was happy with and deleted the rest.
@@ -18,7 +26,8 @@ By now, I had a hobby page I was quite happy with, but I was missing something. 
 
 After I read this, I went back to the other JS resources and read them all. I have to admit that I still struggled to understand how to add it, but with the help of some YouTube videos, I managed to add it and format it how I wanted it.
 
-#Debugging
+# Debugging
+
 Some of the problems I had were:
 
 - Having a bigger width of the `<main>` that goes inside the `<body>` than the `<body>` itself.
